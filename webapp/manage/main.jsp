@@ -228,7 +228,6 @@
                     <a class="i-nav-a" href="javascript:void(0);" onclick="addTab('manage/sthd/tpgl.jsp','图片管理')">图片管理</a>
                     <a class="i-nav-a" href="javascript:void(0);" onclick="addTab('manage/jltd/yhgl.jsp','用户管理')">用户管理</a>
                     <a class="i-nav-a" href="javascript:void(0);" onclick="addTab('manage/webindex/webindex.jsp','网站首页管理')">网站首页管理</a>
-                    <a class="i-nav-a" href="javascript:void(0);" onclick="addTab('manage/system/serverManager.jsp','服务器管理')">服务器管理</a>
                 </div>
             </div>
         </div>

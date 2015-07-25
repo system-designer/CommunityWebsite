@@ -40,14 +40,14 @@
             <div class="easyui-accordion" fit="false" border="false" id="navigation" style="width:170px;">
                 <div title="论坛管理">
                     <ul>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/jltd/bkgl.jsp','板块管理')">板块管理</a></li>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/jltd/ztgl.jsp','主帖管理')">主帖管理</a></li>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/jltd/htgl.jsp','回帖管理')">回帖管理</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/jltd/bkgl.jsp','板块管理')">板块管理</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/jltd/ztgl.jsp','主帖管理')">主帖管理</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/jltd/htgl.jsp','回帖管理')">回帖管理</a></li>
                     </ul>
                 </div>
                 <div title="留言管理">
                     <ul>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/lywm/lywm.jsp','留言管理')">留言管理</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/lywm/lywm.jsp','留言管理')">留言管理</a></li>
                     </ul>
                 </div>
             </div>

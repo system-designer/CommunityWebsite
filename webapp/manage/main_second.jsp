@@ -40,39 +40,39 @@
             <div class="easyui-accordion" fit="false" border="false" id="navigation" style="width:170px;">
                 <div title="协会管理">
                     <ul>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/gywm/xhcy.jsp','协会成员')">协会成员</a></li>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/gywm/xhbm.jsp','协会部门')">协会部门</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/gywm/xhcy.jsp','协会成员')">协会成员</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/gywm/xhbm.jsp','协会部门')">协会部门</a></li>
                     </ul>
                 </div>
                 <div title="公告管理">
                     <ul>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/stgg/stgg.jsp','公告管理')">公告管理</a></li>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/stgg/gglb.jsp','公告类别')">公告类别</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/stgg/stgg.jsp','公告管理')">公告管理</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/stgg/gglb.jsp','公告类别')">公告类别</a></li>
                     </ul>
                 </div>
                 <div title="活动管理">
                     <ul>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/sthd/sthd.jsp','活动管理')">活动管理</a></li>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/sthd/hdlb.jsp','活动类别')">活动类别</a></li>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/hdjy/hdjy.jsp','活动剪影')">活动剪影</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/sthd/sthd.jsp','活动管理')">活动管理</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/sthd/hdlb.jsp','活动类别')">活动类别</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/hdjy/hdjy.jsp','活动剪影')">活动剪影</a></li>
                     </ul>
                 </div>
                 <div title="百科管理">
                     <ul>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/hbbk/hbbk.jsp','百科管理')">百科管理</a></li>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/hbbk/bklb.jsp','百科类别')">百科类别</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/hbbk/hbbk.jsp','百科管理')">百科管理</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/hbbk/bklb.jsp','百科类别')">百科类别</a></li>
                     </ul>
                 </div>
                 <div title="论坛管理">
                     <ul>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/jltd/bkgl.jsp','板块管理')">板块管理</a></li>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/jltd/ztgl.jsp','主帖管理')">主帖管理</a></li>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/jltd/htgl.jsp','回帖管理')">回帖管理</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/jltd/bkgl.jsp','板块管理')">板块管理</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/jltd/ztgl.jsp','主帖管理')">主帖管理</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/jltd/htgl.jsp','回帖管理')">回帖管理</a></li>
                     </ul>
                 </div>
                 <div title="留言管理">
                     <ul>
-                        <li><a href="javascript:void(0);" onclick="addTab('/manage/lywm/lywm.jsp','留言管理')">留言管理</a></li>
+                        <li><a href="javascript:void(0);" onclick="addTab('manage/lywm/lywm.jsp','留言管理')">留言管理</a></li>
                     </ul>
                 </div>
             </div>

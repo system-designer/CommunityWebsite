@@ -168,12 +168,14 @@
             }
             //添加一个tab到右侧工作区
             function addTab(href, title) {
+				var iframeSrc=path+href;
+				iframeSrc=iframeSrc.replace("//manage", '/manage');
                 if ($("#tt").tabs("exists", title)) {
                     $("#tt").tabs('select', title);
                 } else {
                     $("#tt").tabs("add", {
                         title: title,
-                        content: "<iframe src='" + path + href + "' style='overflow:auto;width:" + tabWidth + "px;height:" + tabHeight + "px;'  noresize='noresize' frameborder='0'></iframe>",
+                        content: "<iframe src='" + iframeSrc + "' style='overflow:auto;width:" + tabWidth + "px;height:" + tabHeight + "px;'  noresize='noresize' frameborder='0'></iframe>",
                         closable: true
                     });
                 }
